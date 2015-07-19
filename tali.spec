@@ -2,7 +2,7 @@
 
 Name:		tali
 Version:	3.16.0
-Release:	1
+Release:	2
 Summary:	GNOME Tali game
 License:	GPLv2+ and GFDL
 Group:		Games/Cards
