@@ -14,6 +14,7 @@ BuildRequires:	pkgconfig(librsvg-2.0) >= 2.32.0
 BuildRequires:	intltool
 BuildRequires:	itstool
 BuildRequires:	libxml2-utils
+BuildRequires:  meson
 Obsoletes:	gtali
 # For help
 Requires:	yelp
@@ -25,11 +26,11 @@ Sort of poker with dice and less money. An ancient Roman game.
 %setup -q
 
 %build
-%configure
-%make_build
+%meson
+%meson_build
 
 %install
-%make_install
+%meson_install
 
 %find_lang %{name} --all-name --with-gnome
 
