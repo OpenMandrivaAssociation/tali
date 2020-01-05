@@ -2,7 +2,7 @@
 %define _disable_rebuild_configure 1
 
 Name:		tali
-Version:	3.22.0
+Version:	3.22.1
 Release:	1
 Summary:	GNOME Tali game
 License:	GPLv2+ and GFDL
@@ -26,10 +26,10 @@ Sort of poker with dice and less money. An ancient Roman game.
 
 %build
 %configure
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %find_lang %{name} --all-name --with-gnome
 
