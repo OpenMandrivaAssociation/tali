@@ -39,7 +39,7 @@ Sort of poker with dice and less money. An ancient Roman game.
 %{_bindir}/%{name}
 %{_datadir}/applications/org.gnome.Tali.desktop
 %{_datadir}/glib-2.0/schemas/org.gnome.Tali.gschema.xml
-%{_iconsdir}/*/*/apps/%{org.gnome.Tali*
+%{_iconsdir}/*/*/apps/org.gnome.Tali*
 %{_datadir}/%{name}
 %{_mandir}/man6/%{name}.6*
 %{_datadir}/metainfo/org.gnome.Tali.appdata.xml
