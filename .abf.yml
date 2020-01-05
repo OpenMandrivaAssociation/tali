@@ -1,6 +1,2 @@
-removed_sources:
-  tali-3.14.0.tar.xz: 4cac4a801d4ecd286a035cda1bb5ecf5d3c30313
-  tali-3.16.0.tar.xz: 8e61cb559eaf44dbfd29057100bfce49a72afa89
-  tali-3.18.0.tar.xz: 453251a39f2d7722505fc0c89a7bef8b91142468
 sources:
-  tali-3.22.0.tar.xz: de2b02f13da4cfd23ce381af96ef7f58f8e3cf09
+  tali-3.22.1.tar.xz: 500f10184ac1193168103831e657e34fcc04cbdb
