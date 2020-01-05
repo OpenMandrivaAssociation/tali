@@ -37,10 +37,10 @@ Sort of poker with dice and less money. An ancient Roman game.
 %files -f %{name}.lang
 %doc COPYING
 %{_bindir}/%{name}
-%{_datadir}/applications/%{name}.desktop
-%{_datadir}/glib-2.0/schemas/org.gnome.%{name}.gschema.xml
-%{_iconsdir}/*/*/apps/%{name}*
+%{_datadir}/applications/org.gnome.Tali.desktop
+%{_datadir}/glib-2.0/schemas/org.gnome.Tali.gschema.xml
+%{_iconsdir}/*/*/apps/%{org.gnome.Tali*
 %{_datadir}/%{name}
 %{_mandir}/man6/%{name}.6*
-%{_datadir}/appdata/%{name}.appdata.xml
+%{_datadir}/metainfo/org.gnome.Tali.appdata.xml
 
