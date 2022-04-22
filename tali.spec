@@ -2,7 +2,7 @@
 %define _disable_rebuild_configure 1
 
 Name:		tali
-Version:	40.5
+Version:	40.6
 Release:	1
 Summary:	GNOME Tali game
 License:	GPLv2+ and GFDL
