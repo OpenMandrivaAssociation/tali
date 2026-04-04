@@ -3,7 +3,7 @@
 
 Name:		tali
 Version:	40.9
-Release:	4
+Release:	5
 Summary:	GNOME Tali game
 License:	GPLv2+ and GFDL
 Group:		Games/Cards
@@ -14,7 +14,7 @@ BuildRequires:	pkgconfig(gtk+-3.0) >= 3.4.0
 BuildRequires:	pkgconfig(librsvg-2.0) >= 2.32.0
 BuildRequires:	intltool
 BuildRequires:	itstool
-BuildRequires:	libxml2-utils
+BuildRequires:	libxml2-utils >= 2.15.2
 BuildRequires:  meson
 BuildRequires:  cmake
 Obsoletes:	gtali
